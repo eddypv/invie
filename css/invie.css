@@ -394,6 +394,22 @@ input:focus, textarea:focus {
   z-index: 3;
 
 }
+video{
+  width:100%;
+}
+.video-responsive-contendor{
+  position: relative;
+  padding-top: 56.4%;
+}
+.video-responsive-src{
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+}
 @media screen and (max-width:650px){
   .header{
     text-align: center;
@@ -471,4 +487,10 @@ input:focus, textarea:focus {
     padding: 0px;
   }
 
+}
+@media screen and (min-resolution: 2dppx){
+  .background{
+    background-color: #2A404E;
+    background-image: url('../images/background2x.png');
+  }
 }
