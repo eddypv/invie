@@ -311,6 +311,14 @@ input:focus, textarea:focus {
   margin: 50px 0;
 }
 @media screen and (max-width:800px){
+  .tabla{
+    padding: 50px 20px;
+  }
+  .tabla .contenedor{
+    overflow: auto;
+    border: solid 1px #273b47;
+
+  }
   .titulo{
     font-size: 45px;
     margin-top:30px;
@@ -433,6 +441,12 @@ video{
   .portada .contenedor{
     position: static;
 
+  }
+  .header{
+    position: static;
+  }
+  .header .contenedor{
+    position: static;
   }
   .menu{
     background: rgba(255,60,88,.8);
