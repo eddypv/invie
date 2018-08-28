@@ -409,7 +409,7 @@ input:focus, textarea:focus {
   background: #ff7250;
   display: none;
   text-align: center;
-  position: absolute;
+  position: fixed;
   left: 20px;
   top: 20px;
   cursor: pointer;
@@ -454,6 +454,15 @@ video{
 
 }
 @media screen and (max-width:500px){
+  .portada .button{
+    display: block;
+  }
+  .formulario .col2 {
+    align-items: stretch;
+  }
+  .precios .header .logotipo{
+    margin:50px 0;
+  }
   .portada .contenedor{
     position: static;
 
@@ -469,7 +478,7 @@ video{
   }
   .menu{
     background: rgba(255,60,88,.8);
-    position: absolute;
+    position: fixed;
     left: -100%;
     top:0;
     bottom: 0;
